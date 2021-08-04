@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>canvas实现刮刮乐</title>
+  <style>
+    .card{
+      width: 400px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">猜猜我是谁？</div>
+  <canvas id="canvasDOM" width="400" height="100"></canvas>
+
+  <script src="./scratch-card.js"></script>
+</body>
+</html>
